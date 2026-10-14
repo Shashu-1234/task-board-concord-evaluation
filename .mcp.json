@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "concord": {
+      "command": "concord-mcp",
+      "env": {
+        "CONCORD_REPO_ROOT": "C:\\Users\\SHASHANK\\Documents\\Codex\\2026-10-12\\hi-shashank-thanks-for-applying-to\\outputs\\concord-starter"
+      }
+    }
+  }
+}

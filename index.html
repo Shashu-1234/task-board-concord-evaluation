@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Task Board</h1>
+
+    <form id="task-form">
+      <label for="task-input">New task</label>
+      <div class="add-task">
+        <input id="task-input" type="text" placeholder="Enter a task" required maxlength="100">
+        <button type="submit">Add task</button>
+      </div>
+    </form>
+
+    <section class="board" aria-label="Task board">
+      <div class="column">
+        <h2>To Do <span id="todo-count">0</span></h2>
+        <div class="task-list" id="todo-list"></div>
+      </div>
+
+      <div class="column">
+        <h2>In Progress <span id="in-progress-count">0</span></h2>
+        <div class="task-list" id="in-progress-list"></div>
+      </div>
+
+      <div class="column">
+        <h2>Done <span id="done-count">0</span></h2>
+        <div class="task-list" id="done-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

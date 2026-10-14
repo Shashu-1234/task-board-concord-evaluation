@@ -1,0 +1,9 @@
+# concord:mcp-start
+[mcp_servers.concord]
+command = "concord-mcp"
+args = []
+enabled = true
+
+[mcp_servers.concord.env]
+CONCORD_REPO_ROOT = "C:\\Users\\SHASHANK\\Documents\\Codex\\2026-10-12\\hi-shashank-thanks-for-applying-to\\outputs\\concord-starter"
+# concord:mcp-end
