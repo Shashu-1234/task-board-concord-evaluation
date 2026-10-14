@@ -2,6 +2,8 @@
 
 A lightweight browser-based task board for creating tasks and moving them between **To Do**, **In Progress**, and **Done**.
 
+![Task Board with tasks in To Do, In Progress, and Done](assets/task-board-demo.png)
+
 ## Features
 
 - Create tasks
